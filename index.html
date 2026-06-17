@@ -12,6 +12,7 @@
 
         h1 {
             color: white;
+            text-align: center;
         }
 
         p {
@@ -19,15 +20,24 @@
         }
 
         .burning {
-
+            place-items: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            padding-bottom: 500000px;
+            box-sizing: border-box; 
+            height:400px;
         }
 
-        miku {
-
+        .miku {
+            grid-column: 1;
+            grid-row: 1;
         }
 
-        fire {
-
+        .fire {
+            grid-column:1;
+            grid-row: 1;
+            z-index: 2;
         }
 
     </style>
@@ -36,8 +46,8 @@
     <h1>BURN MIKU</h1>
     <p>hello, support the burn miku movement! This is a strictly anti-miku movement where we want to burn miku and co</p>
     <div class="burning">
-        <img class="miku" src="">
-        <img class="fire" src="">
+        <img class="miku" src="./images/miku-plush.gif">
+        <img class="fire" src="./images/firegif.gif">
     </div>
 </body>
 </html>
